@@ -61,8 +61,8 @@ body {
 }
 
 .brand-logo {
-  width: 54px;
-  height: 54px;
+  width: 62px;
+  height: 62px;
   object-fit: contain;
 }
 
@@ -89,7 +89,7 @@ body {
 .site-nav a {
   color: var(--heading);
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1.15rem;
   font-weight: 500;
 }
 
