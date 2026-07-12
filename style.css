@@ -294,7 +294,7 @@ li {
 
 .person-card {
   display: grid;
-  grid-template-columns: 125px 1fr;
+  grid-template-columns: 135px 1fr;
   gap: 28px;
   align-items: start;
   padding: 28px;
@@ -312,8 +312,8 @@ li {
 }
 
 .person-photo {
-  width: 125px;
-  height: 125px;
+  width: 135px;
+  height: 135px;
   border-radius: 14px;
   object-fit: cover;
 }
@@ -324,7 +324,7 @@ li {
   justify-content: center;
   background: var(--heading);
   color: white;
-  font-size: 1.52rem;
+  font-size: 1.62rem;
   font-weight: 800;
 }
 
