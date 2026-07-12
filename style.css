@@ -294,18 +294,26 @@ li {
 
 .person-card {
   display: grid;
-  grid-template-columns: 110px 1fr;
-  gap: 24px;
+  grid-template-columns: 125px 1fr;
+  gap: 28px;
   align-items: start;
-  padding: 24px;
+  padding: 28px;
   border: 1px solid var(--border);
   border-radius: 14px;
   background: var(--soft-bg);
 }
 
+.person-card h3 {
+  font-size: 1.16rem;
+}
+
+.person-card p {
+  font-size: 1.02rem;
+}
+
 .person-photo {
-  width: 110px;
-  height: 110px;
+  width: 125px;
+  height: 125px;
   border-radius: 14px;
   object-fit: cover;
 }
@@ -316,13 +324,13 @@ li {
   justify-content: center;
   background: var(--heading);
   color: white;
-  font-size: 1.4rem;
+  font-size: 1.52rem;
   font-weight: 800;
 }
 
 .small-text {
   color: var(--muted);
-  font-size: 0.95rem;
+  font-size: 1rem;
 }
 
 /* Publications */
