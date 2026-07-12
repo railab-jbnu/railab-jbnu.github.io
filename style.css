@@ -259,6 +259,21 @@ li {
   margin: 0;
 }
 
+.theme-item p {
+  margin: 8px 0 0;
+  color: var(--muted);
+  font-size: 0.98rem;
+  line-height: 1.55;
+}
+
+.theme-links {
+  display: flex;
+  gap: 12px;
+  margin-top: 10px;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
 .theme-card {
   display: grid;
   grid-template-columns: 64px 1fr;
