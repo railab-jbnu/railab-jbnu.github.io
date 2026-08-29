@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex">
+  <meta http-equiv="refresh" content="1; url=https://docs.google.com/document/d/1y9V-6SjB9YbqZzidP7nPMRARFYUCP6Vn63JacIX2ab4/edit?tab=t.0">
+  <title>Opening the document...</title>
+  <style>
+    body {
+      align-items: center;
+      display: flex;
+      font-family: Arial, sans-serif;
+      justify-content: center;
+      margin: 0;
+      min-height: 100vh;
+    }
+  </style>
+</head>
+<body>
+  <p>Opening the document...</p>
+
+  <script>
+    (() => {
+      const documentUrl = 'https://docs.google.com/document/d/1y9V-6SjB9YbqZzidP7nPMRARFYUCP6Vn63JacIX2ab4/edit?tab=t.0';
+      const cloudflareToken = '7e2bb5bb5b744d55b88d09ca13f78bea';
+      const isAdmin = new URLSearchParams(window.location.search).get('admin') === '1';
+
+      if (!isAdmin && !cloudflareToken.startsWith('PASTE_')) {
+        const beacon = document.createElement('script');
+        beacon.type = 'module';
+        beacon.src = 'https://static.cloudflareinsights.com/beacon.min.js';
+        beacon.setAttribute('data-cf-beacon', JSON.stringify({
+          token: cloudflareToken,
+          spa: false
+        }));
+        document.body.appendChild(beacon);
+      }
+
+      window.setTimeout(() => {
+        window.location.replace(documentUrl);
+      }, isAdmin ? 0 : 700);
+    })();
+  </script>
+
+  <noscript>
+    <p><a href="https://docs.google.com/document/d/1y9V-6SjB9YbqZzidP7nPMRARFYUCP6Vn63JacIX2ab4/edit?tab=t.0">Open the document</a></p>
+  </noscript>
+</body>
+</html>
