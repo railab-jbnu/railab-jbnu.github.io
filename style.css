@@ -82,14 +82,14 @@ body {
 .site-nav {
   display: flex;
   align-items: center;
-  gap: 34px;
+  gap: 26px;
   white-space: nowrap;
 }
 
 .site-nav a {
   color: var(--heading);
   text-decoration: none;
-  font-size: 1.25rem;
+  font-size: 1.12rem;
   font-weight: 500;
 }
 
@@ -369,6 +369,22 @@ li {
   color: var(--muted);
 }
 
+/* Projects */
+
+.project-list {
+  margin: 0;
+  padding-left: 28px;
+}
+
+.project-list li {
+  padding: 14px 8px;
+  border-bottom: 1px solid var(--border);
+}
+
+.project-list li:first-child {
+  padding-top: 4px;
+}
+
 /* Footer */
 
 .site-footer {
@@ -382,7 +398,7 @@ li {
 
 /* Mobile */
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
   .site-header {
     flex-direction: column;
     align-items: flex-start;
