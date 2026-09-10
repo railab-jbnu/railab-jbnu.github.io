@@ -335,6 +335,11 @@ li {
   object-fit: cover;
 }
 
+.intern-photo {
+  object-fit: contain;
+  background: #fff;
+}
+
 .placeholder-photo {
   display: flex;
   align-items: center;
