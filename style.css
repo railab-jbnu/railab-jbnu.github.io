@@ -340,6 +340,11 @@ li {
   background: #fff;
 }
 
+.department-name {
+  white-space: nowrap;
+  font-size: 0.95rem;
+}
+
 .placeholder-photo {
   display: flex;
   align-items: center;
